@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic focus ring utility */
+.focus-ring:focus {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
