@@ -1,6 +1,6 @@
 # React Components Assignment
 
-Build with: React 18, TypeScript, TailwindCSS, Storybook 8 (Vite), Vitest + Testing Library.
+Build with: React , TypeScript, TailwindCSS, Storybook (Vite), Vitest + Testing Library.
 
 ## Quick start
 
@@ -12,7 +12,6 @@ npm test              # run tests (Vitest)
 ```
 
 ## Components
-- **InputField**: label, helper, error, disabled, invalid, sizes (sm|md|lg), variants (filled|outlined|ghost), optional clear button, optional password toggle.
+- **InputField**: label, helper, error, disabled, invalid, sizes (sm|md|lg), variants (filled|outlined|ghost).
 - **DataTable**: sorting, single/multiple selection, loading/empty states, generic typing.
 
-Tailwind dark mode is supported by toggling a `dark` class on `<html>` or `<body>`.
